@@ -1,0 +1,7 @@
+path: ./training_datasets/fish_segmentation
+train: train/images
+test: test/images
+val: valid/images
+
+nc: 1
+names: ['fish']

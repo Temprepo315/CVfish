@@ -1,0 +1,24 @@
+# Model weights
+*.pt
+
+# Folders to completely ignore
+.ipynb_checkpoints/
+Ultralytics/
+
+# Keep training_datasets but ignore all images within it
+training_datasets/**/images/
+training_datasets/**/*.jpg
+training_datasets/**/*.png
+training_datasets/**/*.jpeg
+training_datasets/**/*.bmp
+
+
+
+# R history/data
+.Rhistory
+.RData
+.Ruserdata
+
+# OS files
+.DS_Store
+Thumbs.db

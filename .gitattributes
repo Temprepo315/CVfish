@@ -1,0 +1,10 @@
+runs/analysis/csv_3d/summary_all.csv filter=lfs diff=lfs merge=lfs -text
+camera_calibration/**/*.xml filter=lfs diff=lfs merge=lfs -text
+runs/training/**/*.pt filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+runs/**/*.csv filter=lfs diff=lfs merge=lfs -text
+runs/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+runs/**/*.png filter=lfs diff=lfs merge=lfs -text
